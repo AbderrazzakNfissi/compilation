@@ -60,6 +60,10 @@ public enum CODES_LEX {
     QUOTE_TOKEN,
     CHAINE_CONSTANTE,
     CAR_CONSTANTE,
+    NON_TOKEN,
+    OU_TOKEN,
+    ET_TOKEN,
+    FIN_CAS,
     //erreur
 
     UNCLOSED_CHAINE

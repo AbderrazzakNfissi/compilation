@@ -169,6 +169,8 @@ public class AnalyseurLexical{
             sym_cour.setCODE(CODES_LEX.TANT_QUE_TOKEN);
         }else if(symbole.equals("fintq")){
             sym_cour.setCODE(CODES_LEX.FINTQ_TOKEN);
+        }else if(symbole.equals("non")){
+            sym_cour.setCODE(CODES_LEX.NON_TOKEN);
         }else if(symbole.equals("repeter")){
             sym_cour.setCODE(CODES_LEX.REPETER_TOKEN);
         }else if(symbole.equals("jusqua")){
@@ -187,7 +189,12 @@ public class AnalyseurLexical{
             sym_cour.setCODE(CODES_LEX.STRUCTURE_TOKEN);
         }else if(symbole.equals("finstruct")){
             sym_cour.setCODE(CODES_LEX.FINSTRUCT_TOKEN);
-        }else if(symbole.equals("mod")){
+        }else if(symbole.equals("fincas")){
+            sym_cour.setCODE(CODES_LEX.FINSTRUCT_TOKEN);
+        }else if(symbole.equals("ou")){
+            sym_cour.setCODE(CODES_LEX.OU_TOKEN);
+        }
+        else if(symbole.equals("mod")){
             sym_cour.setCODE(CODES_LEX.MOD_TOKEN);
         }else{
             sym_cour.setCODE(CODES_LEX.ID_TOKEN);

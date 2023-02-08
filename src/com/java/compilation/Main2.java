@@ -10,7 +10,7 @@ public class Main2 {
 
         public static void main(String[] args) throws Exception{
             AnalyseurSyntaxique as = new AnalyseurSyntaxique();
-            //as.display();
+            System.out.println(as.analyseSyntax());
 
     }
 }
