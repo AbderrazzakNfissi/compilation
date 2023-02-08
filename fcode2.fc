@@ -1,0 +1,10 @@
+fonction somme(n:entier,x:entier) : entier
+debut
+  somme : entier := 0;
+fin
+
+
+
+
+ 
+

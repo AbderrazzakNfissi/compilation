@@ -1,0 +1,53 @@
+//programme fcode
+fonction somme(n:entier) : entier
+debut
+  somme : entier := 0;
+ pour(i := 0; i<=n;i=i+1)faire
+    somme:=somme+i;
+ finpour
+  retourner somme;
+fin
+
+fonction fact(n:entier) : entier
+debut
+  fact: entier := 1;
+ tantque(i<=n)faire
+    fact := fact*i;
+ fintq
+ retourner fact;
+fin
+
+fonction pricipale() : entier
+Debut 
+         x : entier ;
+         nom : car;
+         s : entier;
+	 afficher(" saisir un nombre : " ) ;
+         lire( x ) ;
+             
+          si(x>0) alors
+              afficher(" x est supérieur a 0" ) ;
+          sinon si (x < 4) alors
+              selon ( x ) faire 
+                 1 : afficher(" x =    ", 1) ;
+                 fincas 
+                 2 : afficher (" x  = ", 2) ;
+                 fincas 
+                 3 : afficher(" x =  " ,3 ) ;
+                 fincas 
+             sinon : 
+                  afficher(" x = ",4);
+             finselon
+           sinon
+                afficher(" x> 4");
+           finsi
+     
+      lire(nom);
+      afficher("ton nom est: ",nom);
+      s := somme(5);
+      afficher(" somme : ", s);
+      afficher("somme : ",somme(5));
+
+     
+	retourner 0;
+fin
